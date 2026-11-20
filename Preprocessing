@@ -1,0 +1,4 @@
+# Data Preprocessing
+
+This folder contains the dataset preprocessing workflow,
+image and mask preparation, and TensorFlow input pipeline.
