@@ -1,0 +1,15 @@
+Core deep learning framework used by the SegFormer and Minimal CNN notebooks
+
+tensorflow==2.21.0 keras==3.13.2 keras-hub==0.26.0
+
+PyTorch-based U-Net and dataset preprocessing
+
+torch albumentations
+
+Data processing and image handling
+
+numpy pandas opencv-python kagglehub tqdm
+
+Visualization
+
+matplotlib seaborn
