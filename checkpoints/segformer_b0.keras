@@ -6,14 +6,6 @@ The trained SegFormer-B0 model is available through GitHub Releases.
 
 https://github.com/shazaa1/satellite-land_cover-segmentation/releases/tag/v1.0
 
-
-
-- ## Model Checkpoints
-
-- **Minimal CNN (Baseline):** `checkpoints/minimal_cnn_best.keras`
-- **SegFormer-B0 (Modern Model):** [Download Trained Model](https://github.com/shazaa1/satellite-land_cover-segmentation/releases/tag/v1.0)
-
-
 Architecture: SegFormer-B0
 Input Size: 512x512
 Number of Classes: 5
