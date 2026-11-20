@@ -11,9 +11,17 @@ Run:
     python comparison_app.py
 """
 
+import sys
+from pathlib import Path
+
 import numpy as np
 import gradio as gr
 from PIL import Image
+
+# Make the project's models folder available for local imports.
+MODELS_DIR = Path(__file__).resolve().parent / "models"
+if str(MODELS_DIR) not in sys.path:
+    sys.path.insert(0, str(MODELS_DIR))
 
 from inference import run_inference
 import predict_utils
