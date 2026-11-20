@@ -1,0 +1,53 @@
+{
+  "model": "U-Net (from scratch)",
+  "split": "old_split",
+  "best_seed": 0,
+  "class_names": [
+    "Background",
+    "Buildings",
+    "Woodlands",
+    "Water",
+    "Roads"
+  ],
+  "palette": [
+    [
+      190,
+      190,
+      190
+    ],
+    [
+      220,
+      50,
+      50
+    ],
+    [
+      40,
+      150,
+      60
+    ],
+    [
+      50,
+      100,
+      220
+    ],
+    [
+      240,
+      200,
+      40
+    ]
+  ],
+  "img_size": 256,
+  "patch_size": 512,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "val_mIoU": 0.645793200600267,
+  "test_mIoU_mean_over_seeds": 0.6342725147590149
+}

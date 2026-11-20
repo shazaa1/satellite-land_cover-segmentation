@@ -1,0 +1,9 @@
+gradio
+torch
+torchvision
+transformers
+huggingface_hub
+pillow
+numpy
+opencv-python
+matplotlib
