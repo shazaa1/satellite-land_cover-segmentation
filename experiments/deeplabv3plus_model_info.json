@@ -1,0 +1,26 @@
+{
+    "model_name": "DeepLabV3+",
+    "backbone": "ResNet50",
+    "pretrained": "ImageNet",
+    "num_classes": 5,
+    "input_size": "512x512",
+    "output_size": "512x512",
+    "classes": [
+        "Background",
+        "Buildings",
+        "Woodlands",
+        "Water",
+        "Roads"
+    ],
+    "parameters": 40348069,
+    "architecture": {
+        "aspp": true,
+        "low_level_features": true,
+        "decoder": true,
+        "output_stride": 16
+    },
+    "test_results": {
+        "mIoU": 0.730295,
+        "Dice": 0.83242
+    }
+}
